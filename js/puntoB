@@ -1,0 +1,18 @@
+var gatos = '🐈';
+
+var pasos = '🐾';
+
+var cantidadDeGatos = 5
+var cantidadDePasos = 3
+
+for(i= cantidadDeGatos; i > 0;){
+    if(i > 0){
+        for(j=cantidadDePasos; j > 0;){
+            if(j > 0){
+                var resultado = console.log('Gato #' + i + gatos + pasos.repeat(cantidadDePasos))
+                    j--
+                }
+            }
+         i--
+    }else break
+}
